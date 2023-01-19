@@ -1,0 +1,7 @@
+﻿a,b,c
+S,A,B,C
+S
+S,aB|bA
+A,cB
+C,aS|c
+B,b

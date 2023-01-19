@@ -1,0 +1,93 @@
+1 .Definirea limbajului:
+	1.1 Alfabetul
+		a. Literele mari si mici ale alfabetului englez (A-Z si a-z)
+		b. Caracterul '_';
+		c. Cifrele zecimale (0-9);
+	1.2 Lexic
+		a. Simboluri speciale pentru reprezentarea:
+			- operatorii + - * / = < <= = >= > % !=
+			- separatorii [ ] { } : ; spatiu
+			- cuvinte rezervate: STRING ARRAY CHAR CONST DO ELSE IF INTEGER OF PROGRAM READ THEN VAR WHILE WRITE START BOOLEAN REAL
+		b.identificatori
+			-o secventa de litere si cifre, care incepe cu o litera; regula este:
+			identificator ::= litera{litera|cifra|zero};
+			litera ::= ”a“|”b”|..|”z”|"A" | "B" | . ..| "Z”
+			cifra ::= "1" |...| "9"
+       			zero::=”0”
+		c.constante
+			1.intregi - regula:
+				const:=+numar|-numar|numar|zero
+				numar:=cifra{numar|zero}
+			2.caracter
+				character:='litera'|'cifra'|'zero'
+			3.string
+				constCaracter:="string"
+				string:=caracter{string}
+				caracter:=litera|cifra|zero
+
+2.2???? Sintaxa:
+-------
+Cuvinte - atomii predefiniti sunt scrisi intre ghilimele( " si "):
+a) Reguli sintactice:
+------------------
+program ::= "START" listaDeclaratii ";" instructiuneCompusa 
+listaDeclaratii ::= declaratie | declaratie ";" listaDeclaratii
+declaratie ::= IDENTIFICATOR ":" tip`
+tip ::= "BOOLEAN" | "CHAR" | "INTEGER" | "REAL" | "STRING"
+declVector ::= "ARRAY" "[" nr "]" "OF" tip
+nr :== numar
+elemVector ::= "ARRAY" "[" poz "]"
+poz ::= numar | identificator
+instructiuneCompusa ::= "BEGIN" listaInstructiuni "END"
+listaInstructiuni ::= instructiune | instructiune ";" listaInstructiuni
+instructiune ::= instructiuneSimpla | instructiuneStructurata
+instructiuneSimpla ::= atribuire | io
+atribuire ::= identificator ":=" expresie
+expresie ::= expresie "+" termen | termen
+expresie ::= expresie "-" termen | termen
+
+termen ::= termen "*" factor |   termen "/" factor | termen "%" factor | factor
+factor ::= "(" expresie ")" | identificator
+io ::= "READ""(" identificator | elemVector ")" | "WRITE" "(" identificator | string ")"
+instructiuneStructurata ::= instructiuneCompusa | instructiuneIf | instructiuneWhile
+instructiuneIf ::= "IF" conditie "THEN" instructiune "ELSE" instructiune "STOP"
+instructiuneWhile ::= "WHILE" conditie "DO" instructiune "STOP"
+conditie ::=”(“ expresie RELATIE expresie”)”
+b) Reguli lexicale:
+----------------
+IDENTIFICATOR ::= litera{litera|cifra|zero}...{litera|cifra|zero};
+litera ::= ”a“|”b”|..|”z”|"A" | "B" | . ..| "Z”
+cifra ::= "0" | "1" |...| "9"
+zero ::= "0"
+RELATIE ::= "<" | "<=" | "=" | ">=" | ">"
+Atomii sunt codificati conform urmatoarei tabele:
+- identificatori - cod 0
+- constante - cod 1
+- cuvinte rezervate: fiecare cuvant are propriul cod
+- separatori: fiecare separator are propriul cod
+
+
+START
+	aA1:INTEGER;
+	bB1:INTEGER;
+	BEGIN
+		READ(aA1);
+		READ(bB1);
+		IF(aA1>bB1) THEN
+			WRITE(aA1);
+		ELSE
+			WRITE(bB1);
+		STOP
+	END
+ 
+
+START
+	a:INTEGER;
+	b:INTEGER;
+	rez:INTEGER;
+	BEGIN
+		READ(a);
+		READ(b);
+		rez=a+b;
+		WRITE(rez);
+	END

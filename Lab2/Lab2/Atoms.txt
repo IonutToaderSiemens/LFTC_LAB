@@ -1,0 +1,13 @@
+﻿START
+	aA1:INTEGER;
+	bB1:INTEGER;
+	aA1=bB1+5;
+	BEGIN
+		READ(aA1);
+		READ(bB1);
+		IF(aA1>bB1) THEN
+			WRITE(aA1);
+		ELSE
+			WRITE(bB1);
+		STOP
+	END

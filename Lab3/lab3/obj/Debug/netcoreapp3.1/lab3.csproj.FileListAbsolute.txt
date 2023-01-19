@@ -12,3 +12,17 @@ C:\Users\Ionut\source\repos\lftc\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.C
 C:\Users\Ionut\source\repos\lftc\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.dll
 C:\Users\Ionut\source\repos\lftc\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
 C:\Users\Ionut\source\repos\lftc\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+D:\LFTC_LAB\Lab3\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+D:\LFTC_LAB\Lab3\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache

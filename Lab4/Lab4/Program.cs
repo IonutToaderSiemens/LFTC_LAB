@@ -6,7 +6,17 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ServiceGrammar service = new ServiceGrammar(@"D:\LFTC_LAB\Lab4\Lab4\Gramatica.txt");
+            try
+            {
+                service.ReadFile();
+                service.DisplayInfo();
+                service.ConvertGRToFA();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
         }
     }
 }

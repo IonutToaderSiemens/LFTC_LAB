@@ -10,7 +10,7 @@ namespace Lab5_6
     {
         static void Main(string[] args)
         {
-            ServiceGrammar service = new ServiceGrammar(@"C:\Users\z004et0s\source\repos\Lab5-6\Lab5-6\File.txt");
+            ServiceGrammar service = new ServiceGrammar(@"D:\LFTC_LAB\Lab5-6\Lab5-6\File.txt");
             service.ReadFile();
             service.DisplayInfo();
             service.Analyzer("aacbc");

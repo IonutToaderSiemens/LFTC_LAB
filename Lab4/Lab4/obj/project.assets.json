@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ionut\\source\\repos\\lftc\\Lab4\\Lab4\\Lab4.csproj",
+      "projectUniqueName": "D:\\LFTC_LAB\\Lab4\\Lab4\\Lab4.csproj",
       "projectName": "Lab4",
-      "projectPath": "C:\\Users\\Ionut\\source\\repos\\lftc\\Lab4\\Lab4\\Lab4.csproj",
+      "projectPath": "D:\\LFTC_LAB\\Lab4\\Lab4\\Lab4.csproj",
       "packagesPath": "C:\\Users\\Ionut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ionut\\source\\repos\\lftc\\Lab4\\Lab4\\obj\\",
+      "outputPath": "D:\\LFTC_LAB\\Lab4\\Lab4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ionut\\AppData\\Roaming\\NuGet\\NuGet.Config",

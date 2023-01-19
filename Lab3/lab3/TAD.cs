@@ -23,6 +23,7 @@ namespace lab3
             this.finalStates = new List<string>();
             this.transitions = new Dictionary<string, List<string[]>>();
             this.path = filePath;
+
         }
         
 
@@ -71,6 +72,54 @@ namespace lab3
             }
         }
 
+        public void convertFAToGR()
+        {
+            List<string> nonTerminals = this.states;
+            List<string> terminals = this.alphabet;
+            Dictionary<string, List<string>> productions = new Dictionary<string, List<string>>();
+            string startSymbol = this.initialState;
+
+            foreach (KeyValuePair<string, List<string[]>> elem in this.transitions)
+            {
+                if (!productions.ContainsKey(elem.Key))
+                {
+                    productions[elem.Key] = new List<string>();
+                }
+                foreach (var e in elem.Value)
+                {
+                    if(elem.Key == e[1])
+                    {
+                        productions[elem.Key].Add(e[0]);
+                    }
+                    else
+                    {
+                        productions[elem.Key].Add(e[0] + e[1]);
+                    }
+                }
+            }
+            Console.Write("--- Non Terminale ---\n");
+            foreach (var nonTerm in nonTerminals)
+            {
+                Console.Write($"{nonTerm} ");
+            }
+            Console.Write("\n\n\n");
+            Console.Write("--- Terminale ---\n");
+            foreach (var term in terminals)
+            {
+                Console.Write($"{term} ");
+            }
+            Console.Write("\n\n\n");
+            Console.Write("--- Productii ---\n");
+            foreach (var key in productions.Keys)
+            {
+                Console.Write($"{key} -> ");
+                foreach (var production in productions[key])
+                {
+                    Console.Write($"{production} | ");
+                }
+                Console.Write("\n\n");
+            }
+        }
         public bool verifySequence(string sequence)
         {
             var state = initialState;

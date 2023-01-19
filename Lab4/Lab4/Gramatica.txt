@@ -1,7 +1,7 @@
-﻿a,b,c
-S,A,B,C
+﻿S,A,B,C
+a,b,c
 S
-S,aB|bA
-A,cB
-C,aS|c
-B,b
+S=aB|bA
+A=cB
+C=aS|c
+B=b

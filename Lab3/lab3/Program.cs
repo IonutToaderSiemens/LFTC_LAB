@@ -71,6 +71,9 @@ namespace lab3
                         else
                             Console.WriteLine("Not Okay");
                         break;
+                    case "7":
+                        tad.convertFAToGR();
+                        break;
                     case "x":
                         run = false;
                         break;
@@ -80,7 +83,7 @@ namespace lab3
         }
         private static void menuTad() 
         {
-            Console.WriteLine("--- Menu ---\n\n1. Stari\n2. Alfabet\n3. Stare initiala\n4. Stari finale\n5. Tranzitii\n6. Verifica secventa\nx. Exit\n\n");
+            Console.WriteLine("--- Menu ---\n\n1. Stari\n2. Alfabet\n3. Stare initiala\n4. Stari finale\n5. Tranzitii\n6. Verifica secventa\n7. AF -> GR\nx. Exit\n\n");
         }
 
         private static void defaultMenu()

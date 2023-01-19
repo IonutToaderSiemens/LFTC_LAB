@@ -12,3 +12,17 @@ C:\Users\z004et0s\source\repos\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.cspr
 C:\Users\z004et0s\source\repos\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.dll
 C:\Users\z004et0s\source\repos\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.pdb
 C:\Users\z004et0s\source\repos\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.genruntimeconfig.cache
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.exe
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.deps.json
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.runtimeconfig.json
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.runtimeconfig.dev.json
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.dll
+D:\LFTC_LAB\Lab5-6\Lab5-6\bin\Debug\netcoreapp3.1\Lab5-6.pdb
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.csproj.AssemblyReference.cache
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.GeneratedMSBuildEditorConfig.editorconfig
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.AssemblyInfoInputs.cache
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.AssemblyInfo.cs
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.csproj.CoreCompileInputs.cache
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.dll
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.pdb
+D:\LFTC_LAB\Lab5-6\Lab5-6\obj\Debug\netcoreapp3.1\Lab5-6.genruntimeconfig.cache
